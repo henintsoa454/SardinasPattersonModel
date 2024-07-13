@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#process-button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#result-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#modeleResult, #sardinasResult, #language {
+  font-weight: bold;
+}
